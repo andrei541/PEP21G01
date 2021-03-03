@@ -109,7 +109,9 @@ print(type(int('1')))
 # print(f'var_1={var_1},var_2={var_2}')
 # print('==',var_1==var_2)
 # print(var_1 is var_2)
-print("A".center(5,"_"))
-print("A_A".center(5,"_"))
-print("A_A_A".center(5,"_"))
-print(" _A_ ".center(5,"_"))
+# print("A".center(5,"_"))
+# print("A_A".center(5,"_"))
+# print("A_A_A".center(5,"_"))
+# print(" _A_ ".center(5,"_"))
+
+
