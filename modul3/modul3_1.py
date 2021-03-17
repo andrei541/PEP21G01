@@ -73,8 +73,5 @@
 # else:
 #     print(b)
 
-(layer+=1)+1
-
-
 
 
