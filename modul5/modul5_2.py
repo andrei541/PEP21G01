@@ -12,7 +12,6 @@ MiB Swap:   1971.0 total,   1971.0 free,      0.0 used.   7552.2 avail Mem """
 from time import sleep
 
 for i in check_cpu():
-    counter=0
     for line in i.splitlines():
         if line.startswith("%Cpu"):
             list1=line.split(":")[1].split(",")
