@@ -58,10 +58,10 @@ class Car_factory():
         print("right steering wheel:",right_steering)
         print("left steering wheel:",left_steering)
         for i in right_steering:
-            f=open('my_file','w')
+            f=open('../modul6/my_file', 'w')
             f.write("right steering wheel:"+str(i)+'\n')
         for x in left_steering:
-            f = open('my_file', 'w')
+            f = open('../modul6/my_file', 'w')
             f.write("left steering wheel:" + str(x) + '\n')
 
 
