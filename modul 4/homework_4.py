@@ -1,17 +1,33 @@
 # # We want to check which of the following function has the smallest minimum for x in range -10, 10 and use that function
 # # to calculate for x = 0
-# # 1x^2 -2x + 2
-# # 2x^2 -4x + 4
-# # 3x^2 -6x + 6
-
+# 1x^2 -2x + 2
+# 2x^2 -4x + 4
+# 3x^2 -6x + 6
+x=0
+compare=[]
+fun1=1*x^2-2*x+2
+fun2=2*x^2-4*x+4
+fun3=3*x^2-6*x+6
+compare.append(fun1)
+compare.append(fun2)
+compare.append(fun3)
+x=min(compare)
+print(x)
 # # 20P
 # # Create a function (build) that takes 3 int arguments (a, b, c) and return a function (response) that takes one int
 # # argument (x) and calculates ax^2+bx+c
 #
-# def build(a, b, c):
-#     pass  # <your code here>
-#
-#
+def build(a:int, b:int, c:int):
+    response(x)
+    print('Total=',a*x^2+b*x+c)
+
+def response(x):
+    return x
+
+build(1,2,3)
+response(4)
+
+
 # # 20P
 # # Create a list of response functions by calling build function with the arguments (1,-2,3), (2,-4,4), (3,-6,5)
 # list_of_functions = []
